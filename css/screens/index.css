@@ -1,0 +1,76 @@
+.main_imgFile {
+  width: 100%;
+  height: 300px;
+}
+.main_img {
+  width: 100%;
+  height: 300px;
+}
+.rep_count {
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+  padding: 1px 10px 0px 10px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: rgb(240, 0, 27, 0.8);
+}
+.list_table tbody a:hover {
+  text-decoration: underline;
+}
+
+/* 게시판리스트박스 */
+.list_table {
+  width: 100%;
+}
+.list_table thead th {
+  padding: 15px 0px;
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.list_table tbody:hover {
+  background-color: #fafafa;
+}
+.list_table tbody td {
+  padding: 12px 0px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 17px;
+}
+
+/* 글쓰기버튼 페이징 */
+.write_btn {
+  margin: 20px 0px 0px 30px;
+}
+
+/*페이징*/
+.inner_paging_num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paging_numbox {
+  text-align: center;
+  width: 20px;
+  padding: 7px 5px 5px 5px;
+  font-weight: bold;
+}
+.paging_numbox:hover,
+.paging_numbox a:hover {
+  background-color: #fafafa;
+  border-radius: 5px;
+  text-decoration: underline;
+  color: rgb(240, 0, 27);
+}
+.paging_boxr {
+  border: none;
+}
+.cur_pageNum {
+  color: rgb(240, 0, 27);
+  text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.login_form {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_form input {
+  width: 350px;
+  border: none;
+  padding: 15px 5px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.button {
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.button input {
+  width: 180px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+.user_del {
+  display: flex;
+  justify-content: center;
+}
+.find_idpw button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  font-size: 15px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
